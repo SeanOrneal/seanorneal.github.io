@@ -94,6 +94,17 @@ p {
   margin-bottom: 10px;
 }
 
+/* Projects styling */
+.project {
+  margin-bottom: 25px;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
 /* Contact section text */
 section#contact {
   text-align: center;
@@ -102,6 +113,26 @@ section#contact {
 section#contact p {
   margin-bottom: 5px;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #004aad;
+  color: white;
+  border-radius: 8px;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 /* Mobile Responsive */
 @media (max-width: 768px) {
 
@@ -138,4 +169,3 @@ section#contact p {
     font-size: 1.1rem;
   }
 }
-
