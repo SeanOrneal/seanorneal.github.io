@@ -1,4 +1,4 @@
-/* Basic reset */
+/* Reset default spacing */
 * {
   margin: 0;
   padding: 0;
@@ -59,11 +59,11 @@ p {
   margin-bottom: 10px;
 }
 
-/* Footer / Contact */
-section:last-of-type {
+/* Contact section text */
+section#contact {
   text-align: center;
 }
 
-section:last-of-type p {
+section#contact p {
   margin-bottom: 5px;
 }
