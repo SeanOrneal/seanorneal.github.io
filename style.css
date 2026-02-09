@@ -1,4 +1,37 @@
 /* Reset default spacing */
+/* Navigation Menu */
+nav {
+  background-color: #004aad;
+  padding: 10px 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd700;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
