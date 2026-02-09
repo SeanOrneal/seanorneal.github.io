@@ -1,3 +1,4 @@
+/* Basic reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ body {
   padding: 20px;
 }
 
+/* Header */
 header {
   text-align: center;
   padding: 50px 20px;
@@ -29,6 +31,7 @@ header p {
   font-size: 1.2rem;
 }
 
+/* Sections */
 section {
   background: white;
   padding: 30px 20px;
@@ -56,6 +59,7 @@ p {
   margin-bottom: 10px;
 }
 
+/* Footer / Contact */
 section:last-of-type {
   text-align: center;
 }
