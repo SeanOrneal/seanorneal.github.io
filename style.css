@@ -102,3 +102,40 @@ section#contact {
 section#contact p {
   margin-bottom: 5px;
 }
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+  body {
+    padding: 10px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  header {
+    padding: 30px 10px;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  header p {
+    font-size: 1rem;
+  }
+
+  section {
+    padding: 20px 10px;
+  }
+
+  section h2 {
+    font-size: 1.4rem;
+  }
+
+  section h3 {
+    font-size: 1.1rem;
+  }
+}
+
