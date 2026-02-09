@@ -1,1 +1,0 @@
-# seanorneal.github.io
